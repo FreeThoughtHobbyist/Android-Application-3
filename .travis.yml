@@ -1,8 +1,8 @@
 language: android
 
-addons:
-  artifacts = true
-  s3_region = "us-west-2"
+#addons:
+#  artifacts = true
+#  s3_region = "us-west-2"
 
 android:
   components:
@@ -54,5 +54,5 @@ script:
 #after_success:
 #  - codecov
 
-deploy:
-  skip_cleanup: true
+#deploy:
+#  skip_cleanup: true
